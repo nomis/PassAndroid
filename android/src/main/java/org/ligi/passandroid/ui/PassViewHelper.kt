@@ -12,6 +12,8 @@ class PassViewHelper(private val context: Activity) {
 
     val fingerSize by lazy { context.resources.getDimensionPixelSize(R.dimen.finger) }
 
+    val paddingSize by lazy { context.resources.getDimensionPixelSize(R.dimen.pass_padding) }
+
     fun setBitmapSafe(imageView: ImageView, bitmap: Bitmap?) {
 
         if (bitmap != null) {
