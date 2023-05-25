@@ -302,7 +302,10 @@ public class BarCodeIntentIntegrator {
 
         String targetAppPackage = findTargetAppPackage(intentScan);
         if (targetAppPackage == null) {
+            targetAppPackage = BS_PACKAGE;
+/*
             return showDownloadDialog();
+*/
         }
         intentScan.setPackage(targetAppPackage);
         intentScan.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
