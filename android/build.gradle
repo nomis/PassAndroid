@@ -20,7 +20,7 @@ android {
         versionName "3.7.3"
         minSdkVersion 14
         targetSdkVersion 33
-        applicationId "org.ligi.passandroid"
+        applicationId "uk.me.sa.org.ligi.passandroid"
         namespace "org.ligi.passandroid"
         testInstrumentationRunner "org.ligi.passandroid.AppReplacingRunner"
         archivesBaseName = "PassAndroid-$versionName"

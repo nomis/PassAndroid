@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">"PassAndroid"</string>
+    <string name="app_name">"Passbook"</string>
     <string name="logo">"logo"</string>
     <string name="menu_map">Show on map</string>
     <string name="menu_delete">Delete</string>
