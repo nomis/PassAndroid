@@ -102,8 +102,10 @@ class PassListActivity : PassAndroidActivity() {
         } else { // if no error - check if there is a new version of the app
             tracker.trackEvent("ui_event", "processFile", "updatenotice", null)
 
+/*
             SnackEngage.from(binding.fam).withSnack(DefaultRateSnack().withDuration(BaseSnack.DURATION_INDEFINITE))
                     .build().engageWhenAppropriate()
+*/
         }
 
         binding.drawerLayout.addDrawerListener(drawerToggle)
