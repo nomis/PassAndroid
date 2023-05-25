@@ -11,7 +11,10 @@
             android:id="@+id/pass_card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="@dimen/pass_padding"
+            android:layout_marginRight="@dimen/pass_padding"
+            android:layout_marginBottom="4dp"
             android.support.v7.cardview:cardMaxElevation="@dimen/card_longclick_elevation_half"
             android:orientation="vertical">
 

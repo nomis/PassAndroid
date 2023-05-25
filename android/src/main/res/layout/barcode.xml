@@ -8,9 +8,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:padding="8dp">
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
 
-
+<!--
         <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/zoomOut"
                 android:layout_width="wrap_content"
@@ -19,12 +20,14 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:minWidth="@dimen/finger"
                 app:srcCompat="@drawable/ic_action_zoom_out" />
+-->
 
         <FrameLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/white"
-                android:padding="32dp">
+                android:paddingTop="32dp"
+                android:paddingBottom="32dp">
 
             <ImageView
                     android:id="@+id/barcode_img"
@@ -38,6 +41,7 @@
 
         </FrameLayout>
 
+<!--
         <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/zoomIn"
                 android:layout_width="wrap_content"
@@ -48,6 +52,7 @@
                 android:focusable="true"
                 android:minWidth="@dimen/finger"
                 app:srcCompat="@drawable/ic_action_zoom_in" />
+-->
     </LinearLayout>
 
     <TextView

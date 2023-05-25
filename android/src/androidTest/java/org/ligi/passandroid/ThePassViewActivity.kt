@@ -113,6 +113,7 @@ class ThePassViewActivity {
         onView(withId(R.id.fullscreen_barcode)).check(matches(isDisplayed()))
     }
 
+/*
     @Test
     fun testZoomControlsAreThereWithBarcode() {
         getActPass().barCode = BarCode(PassBarCodeFormat.AZTEC, "foo")
@@ -130,5 +131,5 @@ class ThePassViewActivity {
         onView(withId(R.id.zoomIn)).check(matches(not(isDisplayed())))
         onView(withId(R.id.zoomIn)).check(matches(not(isDisplayed())))
     }
-
+*/
 }

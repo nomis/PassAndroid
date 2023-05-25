@@ -8,4 +8,6 @@
     <dimen name="finger">48dp</dimen>
     <dimen name="rhythm">8dp</dimen>
     <dimen name="rhythm2">16dp</dimen>
+
+    <dimen name="pass_padding">2dp</dimen>
 </resources>
